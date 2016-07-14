@@ -22,6 +22,37 @@ class Battle
 
 end
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 bear = Bear.new('Grizzly', 100, 12)
 ninja = Ninja.new('Ninja Gaidan', 100, 10)
 battle = Battle.new(bear, ninja)

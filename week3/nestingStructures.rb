@@ -1,24 +1,23 @@
 # #this is getting interesting, huh?
-# nestedArray = [21, 22, 43, {"name"=>"Bobby", "city"=>"charlotte"}]
+# nestedArray = [21, 22, 43, {"name"=>"Bobby", "email"=>"username@gmail.com"}]
 # puts nestedArray
-# puts nestedArray[3].class
-# puts nestedArray[3].keys
-
-# VERY interesting, as a matter of fact
-# person1 = {"first_name" => "Richard", "last_name"=>"Zapata", "city"=>"Atlanta"}
-# person2 = {"first_name" => "Mandy ", "last_name"=>"Putnam", "city"=>"SanDiego"}
-# person3 = {"first_name" => "Aaron ", "last_name"=>"Groch ", "city"=>"Dubai"}
-# people = [person1, person2, person3]
+# puts nestedArray[3]
 #
+# # VERY interesting, as a matter of fact
+person1 = {"first_name" => "Richard", "last_name"=>"Zapata", "email"=>"username@gmail.com"}
+person2 = {"first_name" => "Mandy", "last_name"=>"Putnam", "email"=>"username@gmail.com"}
+person3 = {"first_name" => "Aaron", "last_name"=>"Groch", "email"=>"username@gmail.com"}
+people = [person1, person2, person3]
+puts people
 # puts people[2]["last_name"] #=>
-# puts people[2].keys
-# puts people[2].key(1)
+# puts people[2]
+# puts people[2]
+#
+# myInfo = {"name"=>"bobby", "age"=>"26", "hometown"=>"charlotte", "favorite_food"=>"pizza"}
+# myInfo.each do |key, value|
+# puts "#{key}: #{value}"
+# end
 
-myInfo = {"name"=>"bobby", "age"=>"26", "hometown"=>"charlotte", "favorite_food"=>"pizza"}
-myInfo.each do |key, value|
-puts "#{key}: #{value}"
-end
-  
 
 # people.each do |loop|
 #   person1.keys.each do |key|

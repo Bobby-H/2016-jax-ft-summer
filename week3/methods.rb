@@ -7,13 +7,13 @@
 #   hello_statement # calling a method from V another method V
 # end
 #
-student = 'James'
-teacher = "Bobby"
-def hello_statement(x, y)
-  puts "Hello #{x} & #{y}!"
-end
-#
-hello_statement('James', "Bobby")
+# student = 'James'
+# teacher = "Bobby"
+# def hello_statement(x, y)
+#   puts "Hello #{x} & #{y}!"
+# end
+# #
+# hello_statement('James', "Bobby")
 # def print_menue
 #   puts 'Welcome to the Menu. Please select an option below:'
 #   puts '1. Enter Data'
@@ -77,9 +77,9 @@ hello_statement('James', "Bobby")
 #   puts string.length
 # end
 #
-# def string_reverse(string)
-#   string.reverse
-# end
+def string_reverse(string)
+  string.reverse
+end
 #
 # string_length("thisIsAVeryLongString")
-# puts string_reverse("After this method i'll be illegible!!")
+puts string_reverse("After this method i'll be illegible!!")

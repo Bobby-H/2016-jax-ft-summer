@@ -21,7 +21,7 @@ end
 boxer1 = Fighter.new('Rocky', 110, 15)
 boxer2 = Fighter.new('Muhammad Ali', 100, 20)
 
-puts boxer1.attack(boxer2)                    #} all of this is to test that
-puts boxer2.inspect                           # Fighter class performs as we
-puts boxer2.attack(boxer1)                    # want
-puts boxer1.inspect
+# puts boxer1.attack(boxer2)                    #} all of this is to test that
+# puts boxer2.inspect                           # Fighter class performs as we
+# puts boxer2.attack(boxer1)                    # want
+# puts boxer1.inspect

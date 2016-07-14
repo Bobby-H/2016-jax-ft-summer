@@ -23,3 +23,5 @@ boxer2 = Fighter.new('Muhammad Ali', 100, 20)
 
 puts boxer1.attack(boxer2)
 puts boxer2.inspect
+puts boxer2.attack(boxer1)
+puts boxer1.inspect
